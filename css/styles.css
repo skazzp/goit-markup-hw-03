@@ -59,8 +59,8 @@ ul {
   margin: 0;
 }
 .logo {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
 
   font-family: 'Raleway', sans-serif;
@@ -74,6 +74,7 @@ ul {
   color: var(--menu-sec-color);
 }
 .logo-foot {
+  margin-right: 0;
   color: var(--main-header);
 }
 .nav-menu {
@@ -85,8 +86,8 @@ ul {
 }
 .nav-link {
   display: block;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--menu-main-color);
   font-weight: 500;
   font-size: 14px;
@@ -99,8 +100,8 @@ ul {
 }
 .nav-list .item {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   /* margin-right: 50px; */
 }
 
@@ -116,8 +117,8 @@ ul {
 }
 .contact-list .item {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 .contact-list .item:not(:last-child) {
   margin-right: 50px;
@@ -136,11 +137,12 @@ ul {
 
 .hero {
   background-color: var(--bg-focus);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-header {
   margin-top: 0px;
   margin-bottom: 30px;
-  padding-top: 200px;
   color: var(--main-header);
   font-weight: 900;
   font-size: 44px;
@@ -154,7 +156,6 @@ ul {
   margin-right: auto;
   min-width: 200px;
   padding: 10px 32px;
-  margin-bottom: 200px;
   font-family: inherit;
   color: var(--main-header);
   background-color: var(--bg-button);
@@ -192,7 +193,7 @@ ul {
   line-height: 1.71;
 }
 .work-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .work-pic,
 .team-pic {
@@ -223,8 +224,7 @@ ul {
   margin-bottom: 50px;
 }
 .team-list-title {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   color: var(--color-main);
   font-weight: 500;
   font-size: 16px;
@@ -240,6 +240,10 @@ ul {
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
+}
+.team-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-text {
   font-size: 16px;
@@ -267,7 +271,7 @@ ul {
 .footer-logo {
   margin-bottom: 20px;
 }
-.footer-list-item {
+.footer-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .filter-list {
@@ -305,20 +309,19 @@ ul {
   text-decoration: none;
 }
 .proj-title {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 20px;
+  margin-bottom: 4px;
   color: var(--color-main);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.proj-list-text {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 4px;
-  margin-bottom: 20px;
+/* .proj-list-text {
+  
+} */
+.proj-desc {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .proj-list {
   display: flex;
@@ -337,7 +340,4 @@ ul {
 }
 .proj-list-pic {
   display: block;
-}
-.proj-desc {
-  border: 1px solid #eeeeee;
 }
