@@ -41,8 +41,7 @@ ul {
   margin: 0px;
 }
 .container {
-  /* display: flex;
-  align-items: center; */
+  /* display: flex; */
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -270,11 +269,17 @@ ul {
 }
 .filter-list {
   display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-left: auto;
+  padding-right: auto;
 }
 .filter-list-item:not(:last-child) {
   margin-right: 8px;
 }
 .filter-button {
+  padding: 6px 22px;
   font-family: inherit;
   color: var(--color-main);
   font-weight: 500;
@@ -282,6 +287,8 @@ ul {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
+  border: 0;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -295,9 +302,39 @@ ul {
   text-decoration: none;
 }
 .proj-title {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 20px;
   color: var(--color-main);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.proj-list-text {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+.proj-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.proj-list-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: #ffffff;
+}
+.proj-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+.proj-list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.proj-list-pic {
+  display: block;
+}
+.proj-desc {
+  border: 1px solid #eeeeee;
 }
