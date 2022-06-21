@@ -59,8 +59,8 @@ ul {
   margin: 0;
 }
 .logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   margin-right: 93px;
 
   font-family: 'Raleway', sans-serif;
